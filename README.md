@@ -1,2 +1,9 @@
-# SlashCommands-PrefixCommands
-Slash Commands + Prefix Commands + Database Connect ( MongoDB )
+#Requirements
+
+* Node.js
+
+#Install
+
+* npm install
+
+note: put in console
