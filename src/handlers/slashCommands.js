@@ -22,7 +22,7 @@ module.exports = async (client) => {
     }
 
     await new Discord.REST({ version: "10" }).setToken(process.env.token).put(
-        Discord.Routes.applicationCommands('1062260302512652359'), {
+        Discord.Routes.applicationCommands('client_id'), {
             body: slashArray
         }
     )
